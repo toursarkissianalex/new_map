@@ -6,7 +6,35 @@
     </head>
     <body>
         <main>
+            <header>
+                <h3>Cataloged Historic Sites in LA by Neighborhood</h3>
+                <div>
+                    By <a href="https://rgaston.com">Rob Gaston</a>
+                </div>
+            </header>
             <div id="map"></div>
+            <div id="popup">
+                <span id="name"></span>
+                <div>
+                    <span id="count"></span>
+                    historic site(s) cataloged
+                </div>
+            </div>
+            <div id="legend">
+                <h4># of sites cataloged</h4>
+            </div>
         </main>
+
+        <template id="attribution">
+            <a href="http://historicplacesla.org/index.htm" target="_blank">© HistoricPlacesLA</a>,
+            <a href="http://boundaries.latimes.com/sets/" target="_blank">© LA Times</a>
+        </template>
+
+        <template id="legend-entry">
+            <div class="entry">
+                <span class="color"></span>
+                <span class="value"></span>
+            </div>
+        </template>
     </body>
 </html>

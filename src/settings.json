@@ -1,5 +1,11 @@
 {
     "container": "map",
     "accessToken": "pk.eyJ1Ijoicmdhc3RvbiIsImEiOiJJYTdoRWNJIn0.MN6DrT07IEKXadCU8xpUMg",
-    "style": "mapbox://styles/rgaston/cjmh4m89omxdp2smvlb1sbuo9"
+    "style": "mapbox://styles/rgaston/cixkupqlu00462rpdjjb29lrx",
+    "center":  [
+        -118.377685546875,
+        33.988918483762156
+    ],
+    "zoom": 9,
+    "pitch": 10
 }
