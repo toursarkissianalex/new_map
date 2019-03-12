@@ -10,8 +10,6 @@ async function init() {
     const neighborhoods = await import("../data/output.json");
     const style = map.getStyle();
 
-    map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}), 'bottom-right');
-
     style.sources = {
         ...style.sources,
         ...custom.sources
