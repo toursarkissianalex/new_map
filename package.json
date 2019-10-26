@@ -14,6 +14,6 @@
         "process": "cd src && node --experimental-modules process.mjs"
     },
     "dependencies": {
-        "mapbox-gl": "^0.48.0"
+        "mapbox-gl": "^1.5.0"
     }
 }
