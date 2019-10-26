@@ -1,8 +1,5 @@
 {
     "container": "map",
-    "accessToken": "pk.eyJ1Ijoicmdhc3RvbiIsImEiOiJJYTdoRWNJIn0.MN6DrT07IEKXadCU8xpUMg",
-    "style": "mapbox://styles/rgaston/cixkupqlu00462rpdjjb29lrx",
-    "zoom": 9.32,
-    "center": [-118.386,33.949],
-    "pitch": 40
+    "accessToken": "",
+    "style": "mapbox://styles/mapbox/streets-v9"
 }
