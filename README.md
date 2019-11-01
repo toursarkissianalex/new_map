@@ -32,7 +32,7 @@ Changes that you make to javascript and CSS files will be automatically refreshe
 ## Building
 Before deploying, you must first build the website by running the following command from the root directory: 
 ```
-yarn` build
+yarn build
 ```
 
 ## Deployment
