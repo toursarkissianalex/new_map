@@ -1,4 +1,65 @@
 {
-    "sources": {},
-    "layers": []
+    "sources": {
+        "output": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": []
+            }
+        }
+    },
+    "layers": [{
+        "id": "output-outline",
+        "type": "line",
+        "source": "output",
+        "paint": {
+            "line-color": [
+                "case",
+                ["boolean", ["feature-state", "hover"], false],
+                "red",
+                "blue"
+            ],
+            "line-width": [
+                "case",
+                ["boolean", ["feature-state", "hover"], false],
+                3,
+                1
+            ]
+        }
+    }, {
+        "id": "output",
+        "type": "fill-extrusion",
+        "source": "output",
+        "paint": {
+            "fill-extrusion-height": [
+                "+",
+                ["*", ["get", "count"], 5],
+                [
+                    "case",
+                    ["boolean", ["feature-state", "hover"], false],
+                    1000,
+                    0
+                ]
+            ],
+            "fill-extrusion-base": [
+                "case",
+                ["boolean", ["feature-state", "hover"], false],
+                1000,
+                0
+            ],
+            "fill-extrusion-color": {
+                "property": "count",
+                "stops": [
+                    [0, "#f2f0f7"],
+                    [30, "#dadaeb"],
+                    [100, "#bcbddc"],
+                    [300, "#9e9ac8"],
+                    [600, "#807dba"],
+                    [800, "#6a51a3"],
+                    [1200, "#4a1486"]
+                ]
+            },
+            "fill-extrusion-opacity": 0.5
+        }
+    }]
 }
