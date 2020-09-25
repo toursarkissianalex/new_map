@@ -6,7 +6,7 @@ Install the following dependencies:
 - [Yarn](https://yarnpkg.com/en/docs/install)
 
 You'll also need a Git client & text editor; if you don't have those, then you should also install the following:
-- [Atom](https://atom.io)
+- [VS Code](https://code.visualstudio.com/)
 
 You'll also want to [sign-up for Mapbox services here](https://www.mapbox.com/signup/) and, if you haven't already, [create a GitHub account](https://github.com).
 

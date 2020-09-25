@@ -1,9 +1,5 @@
 {
     "container": "map",
-    "accessToken": "pk.eyJ1Ijoicmdhc3RvbiIsImEiOiJJYTdoRWNJIn0.MN6DrT07IEKXadCU8xpUMg",
-    "style": "mapbox://styles/rgaston/ck2hvg0bg0vxf1cobkefdc1vp",
-    "zoom": 9.43,
-    "center": [-118.344,33.953],
-    "pitch": 30,
-    "customAttribution": "<a href=\"http://www.historicplacesla.org/about_data\">© HistoricPlacesLA</a>, <a href=\"http://boundaries.latimes.com/about/\">© LA Times</a>"
+    "accessToken": "",
+    "style": "mapbox://styles/mapbox/streets-v9"
 }
