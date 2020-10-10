@@ -16,11 +16,7 @@
         }
     },
     "layers": [
-        {
-            "id": "sites-circles",
-            "type": "circle",
-            "source": "sites"
-        },
+
         {
             "id": "neighborhoods-fill",
             "type": "fill-extrusion",
@@ -46,7 +42,12 @@
             "type": "line",
             "source": "neighborhoods",
             "paint": {    
-                "line-width": 4
+                "line-width": [
+                    "case",
+                    ["boolean",["feature-state", "hover"], false], 
+                    1000,
+                    0
+                ]
             }
         }
     ]

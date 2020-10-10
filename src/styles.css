@@ -15,3 +15,48 @@ main {
 #map {
     height: 100%;
 }
+
+header, #legend, #popup {
+    position: fixed; 
+    z-index: 100;
+    background-color: rgba(red, green, blue, alpha);
+    padding: 15px;
+    border: solid black 1px; 
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 15px;
+}
+header {
+    top: 10px; 
+    left: 10px;
+}
+
+#legend {
+    bottom: 25px;
+    right: 10px;
+    width: 100px;
+}
+
+.title {
+    font-size: 1.2em; 
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#popup {
+    top: 10px;
+    right: 10px;
+    display: none;
+}
