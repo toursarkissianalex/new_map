@@ -1,5 +1,5 @@
 {
     "container": "map",
-    "accessToken": "",
-    "style": "mapbox://styles/mapbox/streets-v9"
+    "accessToken": "pk.eyJ1IjoidG91cnNhcmtpc3NpYW5hbGV4IiwiYSI6ImNrZmp4N3lqNTBmZzMyenQ0eW9heDQwaDUifQ.PsuFIyo0alN9zU5eUMaLsw",
+    "style": "mapbox://styles/toursarkissianalex/ckfjzlgsk2pse19qofqald168"
 }
